@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/08/17 09:11:32.000.614,F:\Tony Project\D_DLL\MyDLL.groupproj=F:\Tony Project\D_DLL\ProjectGroup1.groupproj</Transaction>
+  </Transactions>
+	<Default.Personality>
+		<Projects ActiveProject="F:\Tony Project\D_UseMyDLL\UseMyDLL.dproj"/>
+	</Default.Personality>
+</BorlandProject>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/12/30 17:49:26.000.933,=C:\Users\tony\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/01/04 10:55:58.000.871,=C:\Users\tony\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/03/25 11:58:24.000.512,=C:\Users\tony\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/05/20 11:56:32.000.902,=C:\Users\tony\Documents\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2016/05/20 11:56:33.000.953,=C:\Users\tony\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2016/05/26 11:42:03.000.751,=C:\Users\tony\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/05/26 13:37:37.000.235,=C:\Users\tony\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/16 18:03:06.000.329,=C:\Users\tony\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/08/16 18:03:37.000.463,C:\Users\tony\Documents\Embarcadero\Studio\Projects\MyDll_Use.dproj=C:\Users\tony\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2016/08/16 18:03:45.000.616,C:\Users\tony\Documents\Embarcadero\Studio\Projects\UnitExe.pas=C:\Users\tony\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/08/16 18:03:45.000.616,C:\Users\tony\Documents\Embarcadero\Studio\Projects\UnitExe.dfm=C:\Users\tony\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2016/08/16 18:04:34.000.598,F:\Tony Project\D_DLL\UnitExe.pas=C:\Users\tony\Documents\Embarcadero\Studio\Projects\UnitExe.pas</Transaction>
+    <Transaction>2016/08/16 18:04:34.000.598,F:\Tony Project\D_DLL\UnitExe.dfm=C:\Users\tony\Documents\Embarcadero\Studio\Projects\UnitExe.dfm</Transaction>
+    <Transaction>2016/08/16 18:04:38.000.618,F:\Tony Project\D_DLL\MyDll_Use.dproj=C:\Users\tony\Documents\Embarcadero\Studio\Projects\MyDll_Use.dproj</Transaction>
+    <Transaction>2016/08/18 15:05:18.000.689,F:\Tony Project\D_DLL\UseMyDLL.dproj=F:\Tony Project\D_DLL\MyDll_Use.dproj</Transaction>
+    <Transaction>2016/08/18 15:10:56.595,F:\Tony Project\D_UseMyDLL\UnitUseDll.pas=F:\Tony Project\D_UseMyDLL\UnitExe.pas</Transaction>
+    <Transaction>2016/08/18 15:10:56.595,F:\Tony Project\D_UseMyDLL\UnitUseDll.dfm=F:\Tony Project\D_UseMyDLL\UnitExe.dfm</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PTony-MBP iOSSimulator="iPhone5"/>
+		<NoProfile Android="0a17af95"/>
+	</ActiveMobileDevice>
+</BorlandProject>

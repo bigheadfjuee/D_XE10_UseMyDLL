@@ -1,0 +1,14 @@
+unit UnitDLL;
+
+interface
+
+function MyAdd(i, j: Integer): Integer; stdcall;
+
+implementation
+
+function MyAdd(i, j: Integer): Integer;
+begin
+  MyAdd := i + j;
+end;
+
+end.-

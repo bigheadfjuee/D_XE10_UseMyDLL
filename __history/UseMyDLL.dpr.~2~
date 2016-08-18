@@ -1,0 +1,14 @@
+program UseMyDLL;
+
+uses
+  Vcl.Forms,
+  UnitExe in 'UnitExe.pas' {FormExe};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFormExe, FormExe);
+  Application.Run;
+end.

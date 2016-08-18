@@ -1,0 +1,33 @@
+unit UnitExe;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TFormExe = class(TForm)
+    Memo1: TMemo;
+    procedure FormShow(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormExe: TFormExe;
+
+implementation
+
+{$R *.dfm}
+function MyAdd(i, j: Integer): Integer; stdcall; external 'MyDllTest.dll';
+
+procedure TFormExe.FormShow(Sender: TObject);
+begin
+  Memo1.Lines.Add(IntToStr(MyAdd(1, 2)));
+end;
+
+end.

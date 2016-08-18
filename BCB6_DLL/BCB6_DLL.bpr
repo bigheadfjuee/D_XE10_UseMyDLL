@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="..\Win32\Debug\BCB6_DLL.dll"/>
+    <OBJFILES value="temp\UnitMyDLL.obj"/>
+    <RESFILES value="BCB6_DLL.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="dclusr.lib nmfast.lib bcbsmp.lib adortl.lib DirectX9_BCB6.lib 
+      DSPack_BCB6.lib bdertl.lib qrpt.lib TntLibR.lib vclx.lib dbrtl.lib 
+      vcldb.lib SUIPackC6.lib Indy60.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib Indy60.lib SUIPackC6.lib vcldb.lib dbrtl.lib vclx.lib 
+      TntLibR.lib qrpt.lib bdertl.lib DSPack_BCB6.lib DirectX9_BCB6.lib 
+      adortl.lib bcbsmp.lib nmfast.lib dclusr.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi adortl.bpi dclusr.bpi DirectX9_BCB6.bpi DSPack_BCB6.bpi 
+      SUIPackC6.bpi TntLibR.bpi TntLibD.bpi vclx.bpi dbrtl.bpi vcldb.bpi 
+      bdertl.bpi TeeDB8C6.bpi Tee8C6.bpi TeeUI8C6.bpi TeeLanguage8C6.bpi 
+      TeePro8C6.bpi TeeWorld8C6.bpi TeeGL8C6.bpi qrpt.bpi TeeQR8C6.bpi 
+      TeeImage8C6.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT;_NO_VCL"/>
+    <MAINSOURCE value="BCB6_DLL.bpf"/>
+    <INCLUDEPATH value="&quot;F:\Tony Project\BCB6_DLL&quot;;src;$(BCB)\Projects\Bpl;$(BCB)\Imports;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt"/>
+    <LIBPATH value="&quot;F:\Tony Project\BCB6_DLL&quot;;lib;$(BCB)\Projects\Lib;$(BCB)\Imports;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I&quot;F:\Tony Project\BCB6_DLL&quot; -Isrc -I$(BCB)\Projects\Bpl -I$(BCB)\Imports 
+      -I$(BCB)\include -I$(BCB)\include\vcl -I$(BCB)\Source\DSPack234 
+      -I$(BCB)\Source\Indy9 -I$(BCB)\Source\SUIPack -I$(BCB)\Source\Tnt 
+      -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-WD -Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -6 -b- -k -y -v 
+      -vi- -tWD -tWM- -c"/>
+    <PFLAGS value="-N2temp -N0temp -$Y+ -$X- -$W -$V- -$P- -$O- -$H- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-Itemp -D&quot;&quot; -aa -Tpd -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0d32.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cw32.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="BCB6_DLL.res" FORMNAME="" UNITNAME="BCB6_DLL.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BCB6_DLL.bpf" FORMNAME="" UNITNAME="BCB6_DLL" CONTAINERID="BPF" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitMyDLL.cpp" FORMNAME="" UNITNAME="UnitMyDLL" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=1
+MajorVer=2
+MinorVer=3
+Release=0
+Build=23
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1028
+CodePage=950
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=2.3.0.23
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=2.3
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=5
+Item0=F:\Tony Project\BCB6_DLL;src;$(BCB)\Projects\Bpl;$(BCB)\Imports;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt
+Item1=src;$(BCB)\Projects\Bpl;$(BCB)\Imports;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt
+Item2=..\WSC1200_Server;src;$(BCB)\Projects\Bpl;$(BCB)\Imports;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt
+Item3=src;$(BCB)\Imports;$(BCB)\Projects\Bpl;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt
+Item4=src;$(BCB)\Imports;C:\Program Files\Borland\CBuilder6\Projects\Bpl\Indy\C6;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=6
+Item0=F:\Tony Project\BCB6_DLL;lib;$(BCB)\Projects\Lib;$(BCB)\Imports;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt
+Item1=lib;$(BCB)\Projects\Lib;$(BCB)\Imports;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt
+Item2=..\WSC1200_Server;src;lib;$(BCB)\Projects\Lib;$(BCB)\Imports;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt
+Item3=src;lib;$(BCB)\Projects\Lib;$(BCB)\Imports;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt
+Item4=src;$(BCB)\Imports;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt
+Item5=src;$(BCB)\Imports;C:\Program Files\Borland\CBuilder6\Projects\Bpl\Indy\C6;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=2
+Item0=$(BCB)\source\vcl;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt
+Item1=$(BCB)\source\vcl;C:\SUIPack\Source\
+
+[HistoryLists\hlConditionals]
+Count=3
+Item0=_DEBUG
+Item1=_DEBUG;_WINSOCKAPI_
+Item2=_DEBUG;_WINSOCK2API_
+
+[HistoryLists\hlIntOutputDir]
+Count=1
+Item0=temp
+
+[HistoryLists\hlFinalOutputDir]
+Count=3
+Item0=..\Win32\Debug\
+Item1=output\
+Item2=output
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+
+[Linker]
+LibPrefix=
+LibSuffix=
+LibVersion=
+  </IDEOPTIONS>
+</PROJECT>

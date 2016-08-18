@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{E4762AD2-8082-4156-9780-2955525880D6}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Delphi_DLL.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="UseMyDLL.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Delphi_DLL">
+        <MSBuild Projects="Delphi_DLL.dproj"/>
+    </Target>
+    <Target Name="Delphi_DLL:Clean">
+        <MSBuild Projects="Delphi_DLL.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Delphi_DLL:Make">
+        <MSBuild Projects="Delphi_DLL.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="UseMyDLL">
+        <MSBuild Projects="UseMyDLL.dproj"/>
+    </Target>
+    <Target Name="UseMyDLL:Clean">
+        <MSBuild Projects="UseMyDLL.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="UseMyDLL:Make">
+        <MSBuild Projects="UseMyDLL.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Delphi_DLL;UseMyDLL"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Delphi_DLL:Clean;UseMyDLL:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Delphi_DLL:Make;UseMyDLL:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
